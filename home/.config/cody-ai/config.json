@@ -1,0 +1,86 @@
+{
+  "config": {
+    "proxy": "",
+    "codebase": "",
+    "customHeaders": {},
+    "useContext": "blended",
+    "debugVerbose": false,
+    "debugFilter": null,
+    "telemetryLevel": "all",
+    "autocomplete": true,
+    "autocompleteLanguages": {
+      "*": true
+    },
+    "chatPreInstruction": "",
+    "editPreInstruction": "",
+    "commandCodeLenses": false,
+    "autocompleteAdvancedProvider": null,
+    "autocompleteAdvancedModel": null,
+    "autocompleteCompleteSuggestWidgetSelection": true,
+    "autocompleteFormatOnAccept": false,
+    "autocompleteDisableInsideComments": false,
+    "codeActions": true,
+    "commandHints": true,
+    "internalUnstable": false,
+    "autocompleteExperimentalGraphContext": null,
+    "experimentalCommitMessage": true,
+    "experimentalNoodle": false,
+    "experimentalTracing": false,
+    "experimentalSupercompletions": false,
+    "autocompleteExperimentalOllamaOptions": {
+      "url": "http://localhost:11434",
+      "model": "codellama:7b-code"
+    },
+    "autocompleteExperimentalHotStreakAndSmartThrottle": false,
+    "autocompleteExperimentalPreloadDebounceInterval": 0,
+    "isRunningInsideAgent": false,
+    "autocompleteTimeouts": {},
+    "autocompleteFirstCompletionTimeout": 3500,
+    "accessToken": "sgp_a0d7ccb4f752ea73_fd22a6a0304826a40c425773734cf055da573fac",
+    "serverEndpoint": "https://sourcegraph.com/"
+  },
+  "authStatus": {
+    "id": "VXNlcjozNzE4MTU=",
+    "hasVerifiedEmail": true,
+    "displayName": "Adam Maulana",
+    "username": "pitoyealone-mqogf",
+    "avatarURL": "https://avatars.githubusercontent.com/u/60150829?v=4",
+    "primaryEmail": "pitoyealone@gmail.com",
+    "organizations": {
+      "nodes": [
+        {
+          "id": "T3JnOjI4MTI=",
+          "name": "acme-corp"
+        }
+      ]
+    },
+    "endpoint": "https://sourcegraph.com/",
+    "isDotCom": true,
+    "siteHasCodyEnabled": true,
+    "siteVersion": "287574_2024-08-14_5.6-6e828b0a14d3",
+    "configOverwrites": {
+      "chatModel": "anthropic/claude-3-sonnet-20240229",
+      "chatModelMaxTokens": 12000,
+      "fastChatModel": "anthropic/claude-3-haiku-20240307",
+      "fastChatModelMaxTokens": 12000,
+      "completionModel": "fireworks/starcoder",
+      "completionModelMaxTokens": 9000,
+      "provider": "sourcegraph",
+      "smartContextWindow": true
+    },
+    "authenticated": true,
+    "userCanUpgrade": true,
+    "showInvalidAccessTokenError": false,
+    "requiresVerifiedEmail": true,
+    "isLoggedIn": true,
+    "codyApiVersion": 1,
+    "isFireworksTracingEnabled": false
+  },
+  "anonymousUserID": "f49c053a-f973-45fd-be05-7e30e449c7b1",
+  "extensionDetails": {
+    "ide": "VSCode",
+    "arch": "x86_64",
+    "platform": "macos",
+    "version": "1.30.3"
+  }
+}

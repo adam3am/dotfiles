@@ -1,0 +1,169 @@
+{
+  "apc.activityBar": {
+    "hideSettings": true,
+    "position": "bottom",
+    "size": 26
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset"
+  },
+  "apc.stylesheet": {
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container": {
+      "padding-left": "calc(var(--traffic-X)) !important"
+    }
+  },
+  "breadcrumbs.enabled": false,
+  "comments.openView": "never",
+  "cSpell.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.experimental.asyncTokenization": true,
+  "editor.fontFamily": "Berkeley Mono, JetBrains Mono, SF Mono, 'Fira Code', Hasklig, Source Code Pro, Menlo, Monaco, Consolas, Courier New, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.occurrencesHighlight": "off",
+  "editor.renderWhitespace": "boundary",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollBeyondLastLine": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "emmet.showExpandedAbbreviation": "never",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "atlas.hcl": "atlas-config"
+  },
+  "files.autoSave": "off",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/*.pyc": true,
+    "**/CVS": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:updated-desc"
+    }
+  ],
+  "githubPullRequests.pullBranch": "never",
+  "go.formatTool": "goimports",
+  "go.lintFlags": ["--fast"],
+  "go.lintTool": "golangci-lint",
+  "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "redhat.telemetry.enabled": false,
+  "settingsSync.ignoredSettings": ["window.titleBarStyle"],
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontSize": 16,
+  "terraform.languageServer.enable": true,
+  "typescript.autoClosingTags": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.tsserver.maxTsServerMemory": 8192,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.commandCenter": true,
+  "window.nativeTabs": false,
+  "window.titleBarStyle": "native",
+  "workbench.colorTheme": "Gruvbox Dark Soft",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "yaml.format.enable": true,
+  "yaml.format.singleQuote": true,
+  "yaml.schemas": {
+    "http://json.schemastore.org/github-workflow": [
+      "**/.github/workflows/*.yaml",
+      "**/.github/workflows/*.yml"
+    ],
+    "http://json.schemastore.org/github-action": ["action.yaml", "action.yml"]
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[helm]": {
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "workbench.productIconTheme": "material-product-icons",
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1"
+  },
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "vs-kubernetes": {
+    "vscode-kubernetes.kubectl-path-linux": "/home/gitpod/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-linux": "/home/gitpod/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path-linux": "/home/gitpod/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+  },
+  "application.shellEnvironmentResolutionTimeout": 30,
+  "update.mode": "manual",
+  "remote.SSH.remotePlatform": {
+    "*.gitpod.io": "linux"
+  },
+  "cody.autocomplete.enabled": true,
+  "git.replaceTagsWhenPull": true
+}
